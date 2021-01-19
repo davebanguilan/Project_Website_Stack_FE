@@ -2,6 +2,5 @@ import { combineReducers } from "redux";
 
 import posts from "./posts";
 
-export default combineReducers({
-  posts,
-});
+//prettier-ignore
+export default combineReducers({ posts });
