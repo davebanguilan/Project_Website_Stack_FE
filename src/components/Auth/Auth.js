@@ -18,6 +18,8 @@ import useStyles from "./styles";
 
 import { signin, signup } from "../../actions/auth";
 
+const { REACT_APP_GOOGLEID } = process.env;
+
 const initialState = {
   firstName: "",
   lastName: "",
@@ -131,7 +133,7 @@ const Auth = () => {
             {isSignUp ? "Sign Up" : "Sign In"}
           </Button>
           <GoogleLogin
-            clientId="818813332820-0cpa3njpkkd1hfroq17t4umfagr02u6b.apps.googleusercontent.com"
+            clientId={REACT_APP_GOOGLEID}
             render={(renderProps) => (
               <Button
                 className={classes.googleButton}
