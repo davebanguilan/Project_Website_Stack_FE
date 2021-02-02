@@ -1,10 +1,10 @@
-# Stack (Social Media App) 
+# Stack (Social Media App) 📱👨‍💻
 
 This project is created using React for the frontend and Express, NodeJS, and MongoDB for the backend. Redux is used for state management and Axios is used for HTTP requests.
 The application implements two login options: Manual login that implements JWT-token based authentication and a Google OAuthentication. 
 
 
-## Things you can do with the app:
+## Things you can do with the app: ⚙
 1. You can create an account using two options: Manual login or use your _Google account_ to quickly login.
 2. You can create a Stack! Fill up the forms and upload an image then your post can be seen on the dashboard in a bit.
 3. Like posts of other users.
